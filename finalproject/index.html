@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Current Favorite Video Games</title>
+    <meta name="description" content="A webpage that shows off the games I currently like to play" />
+    <meta name="keywords" content="video games, favorite, current" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/GridViewScreen.css" media="all"/>
+    <link rel="stylesheet" href="css/GridViewPrint.css" media="print"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script>
+        function changeColor(){
+            document.body.style.color = document.getElementById('textColor').value;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>My Current Favorite Video Games</h1>
+    </header>
+    <section class="row">
+        <nav class="col-3 col-m-3">
+        <ul>
+            <li><a href="https://www.xbox.com/en-US">Xbox Home Page</a></li>
+            <li><a href="https://www.fortnite.com/">Fortnite</a></li>
+            <li><a href="https://www.mortalkombat.com/en-us">Mortal Kombat 1</a></li>
+            <li><a href="https://www.ubisoft.com/en-us/game/rainbow-six/siege">Tom Clancy's Rainbow Six Siege</a></li>
+        </ul>
+        </nav>
+        <details class="col-6 col-m-9">
+            <summary>Paragraph</summary>
+            <p>This webpage shows off a few of my current favorite video games that I play on Xbox. What I am playing the most right now is Fortnite, because they brought back the original map for the first time in over five years.
+I am having a ton of fun with the game right now, and it's cool that I get to experience the old map again for the first time since I was in middle school.
+For the past two months since it's release, I've been playing a lot of Mortal Kombat 1 as well. The game is very fun to play with friends and I've been a Mortal Kombat fan for a while now.
+One of my favorite games of all time is Rainbow Six Siege and I still play it to this day. I've been playing siege for a couple years now and I honestly never get bored of it.
+I love that it is super competitve and it's a game that I have become really good at.</p>
+        </details>
+        <aside class="col-3 col-m-12">
+            <img alt="fortnite"  src="media/fortnite.jpeg" style="padding:10px; max-width:100%;" /> 
+            <br />
+	        <img alt="mortal kombat 1" src="media/mortal_kombat_1.jpeg"  style="padding:10px; max-width:181px;" />
+            <br />
+            <img alt="xbox logo" src="media/xbox_logo.png" style="padding:10px; max-width:181px;" />
+        </aside>
+    </section>
+    <footer>
+        <div class="icon-bar">
+            <p>
+            <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.tiktok.com/"><i class="fa fa-music"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></p>
+            </div>
+            <p style="text-align:center;font-size:18px;">Please select a color for the paragraph text:<input type="color" id="textColor">
+            To apply the changes, select the Change button:&nbsp; <button onclick="changeColor()">Change</button></p>
+            <p style="text-align:left;font-size: 18px;">
+            <small>&copy; Tyler Breithaupt</small></p>
+    </footer>
+</body>
+</html>
